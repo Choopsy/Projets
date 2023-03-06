@@ -1,0 +1,53 @@
+.body{
+    background-color: rgb(44, 44, 44);
+}
+nav{
+    position: sticky;
+    top: 0px; 
+    width: 100%;
+    height: 5em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(44, 44, 44);
+}
+.text_menu{
+   color: white; 
+   text-align: center;
+   text-transform: uppercase;
+}
+.text_menu a{
+    margin-right: 3rem;
+    color: white;
+    font-size: 28px;
+}
+#prenom{
+    margin-right: 6rem;
+    font-size: 36px;
+}
+.container{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.content{
+    width: 100%;
+    border-radius: 1%;
+}
+.text_start{
+    position: auto; 
+    margin-left: 50%;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+.card-text{
+    color:white; 
+}
+#image_dev{
+    width: 70%;
+    margin-left: 8rem;
+}
+.d-block{
+    width: 150px;
+}

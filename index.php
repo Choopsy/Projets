@@ -1,0 +1,63 @@
+<?php
+	// if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
+	// 	$uri = 'https://';
+	// } else {
+	// 	$uri = 'http://';
+	// }
+	// $uri .= $_SERVER['HTTP_HOST'];
+	// header('Location: '.$uri.'/dashboard/');
+	// exit;
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<title>Menu Projets</title>
+</head>
+<body>
+	<div>
+		<table>
+			<tbody>
+					<tr>
+						<td><a target="_blank" href="http://localhost/portfolio/index.php">Mon Portfolio</a></td>
+					</tr>
+					<tr>
+						<td><a target="_blank" href="http://localhost/Calculatrice">Ma Calculatrice</a></td>
+					</tr>
+					<tr>
+						<td><a target="_blank" href="http://localhost/Todolist">Ma TO-DO Liste</a></td>
+					</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
+
+<style>
+body{
+	background: rgb(222,88,228);
+	background: linear-gradient(90deg, rgba(222,88,228,1) 0%, rgba(65,223,255,1) 100%);
+}
+table{
+	width: 100%;
+	text-align: center;
+	margin-top: 3rem;
+}
+a{
+	text-decoration: none;
+}
+td{
+	width: auto;
+	padding: 1rem;
+}
+body, table, a, td {
+	font-size: larger;
+	color: black;
+	font-family :  Cambria, Georgia, serif;
+}
+</style>

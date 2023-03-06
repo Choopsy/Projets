@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Mon portfolio</title>
+</head>
+<body class="body">
+
+    <!-- MENU NAVBAR -->
+    <nav>
+        <ul class="text_menu">
+            <a style="text-decoration: none" href="" id="prenom">Cheun Perret</a>
+            <a style="text-decoration: none" href="">Expériences</a>
+            <a style="text-decoration: none" href="">Compétences</a>
+            <a style="text-decoration: none" href="">Contact</a>
+        </ul>
+    </nav>
+
+    <!-- BODY CONTENT -->
+    <div class="container">
+        <!-- IMAGE + TEXT DE BIENVENU -->
+            <div class="content">
+                <div class="card mb-3" style="background-color: rgb(44, 44, 44); border: none;">
+                    <div class="row g-0" style="background-color: rgb(44, 44, 44)">
+                        <div class="col-md-6">
+                            <img src="./public/image_perso bonne dimension.png" class="img-fluid rounded-start" id="image_dev" style="position: center;">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <p class="card-text" style="text-align:center; margin-top:1rem">Bienvenu sur mon portfollio !</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- appel à du carousel -->
+            <?php include('competences.php') ?>
+    </div>
+</body>
+</html>
